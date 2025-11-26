@@ -1,0 +1,8 @@
+# Common sensitive files
+*.env
+*.ini
+*.cfg
+*.pem
+__pycache__/
+.ipynb_checkpoints/
+.cache
