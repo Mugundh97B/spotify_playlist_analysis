@@ -6,6 +6,8 @@ ALTER TABLE sounds_eng MODIFY COLUMN duration_min FLOAT;
 alter table sounds_eng modify column popularity int;
 desc sounds_eng;
 
+select * from sounds_eng where track_name in ('After Hours' , 'Without Me', 'Dirty Paws');
+
 -- 1 Most Popular Song
 select track_name, popularity from sounds_eng order by popularity desc limit 1;
 
